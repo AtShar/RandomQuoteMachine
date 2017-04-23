@@ -1,0 +1,43 @@
+ html,
+ body,
+ .container-table {
+   height: 100%;
+ }
+ 
+ .container-table {
+   display: table;
+ }
+ 
+ .vertical-center-row {
+   display: table-cell;
+   vertical-align: middle;
+ }
+ 
+ #contentDiv {
+   background-color: #FFF;
+   border-radius: 5px;
+   padding: 3em;
+ }
+ 
+ #twitterContainer {
+   float: left;
+   margin-top: 2em;
+ }
+ 
+ #buttonContainer {
+   display: inline-block;
+   float: right;
+   margin-top: 2em;
+ }
+ 
+ #newQuote {}
+ 
+ #quoteContent {
+   font-size: 2em;
+   font-weight: 500;
+ }
+ 
+ #quoteAuthor {
+   text-align: right;
+   font-size: 1.15em;
+ }
